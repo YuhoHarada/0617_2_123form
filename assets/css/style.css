@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 10px;
+}
+
+form{
+    width: 500px;
+    background: lightgray;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: monospace;
+}
+
+input,textarea{
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    line-height: 1.7em;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    background: teal;
+    padding: 20px;
+    color: white;
+}
+
+input#send{
+    background: teal;
+    color: white;
+    font-weight: 600;
+}
+
+input#send:hover{
+    background: darkgreen;
+}
